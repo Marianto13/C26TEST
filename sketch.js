@@ -36,9 +36,9 @@ function setup() {
 		}
 	  });
 	//var ball = Bodies.circle(90, 280, 20);
-	//ball=Bodies.circle(55,90,20,options);
+	ball=Bodies.circle(55,90,20,options);
 
-	 ball = Bodies.circle(55, 90, 20, {
+	 /* ball = Bodies.circle(55, 90, 20, {
 		render: {
 		  sprite: {
 			texture: "pngaaa.com-1866382.png",
@@ -46,7 +46,7 @@ function setup() {
 		  }
 		}, options
 	  });
-	
+	 */
 	World.add(engine.world, [o1, o2, o3,o4, ball]);
 
 	Engine.run(engine);
